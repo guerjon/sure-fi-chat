@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F07C9CE1FC37DE400E3941F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07C9CD1FC37DE400E3941F /* UIButton.swift */; };
+		2F07C9DC1FC398F700E3941F /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07C9DB1FC398F700E3941F /* NewTableViewController.swift */; };
+		2F33B4081FD74377002ED51C /* ScanQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33B4071FD74377002ED51C /* ScanQrViewController.swift */; };
+		2F33B40C1FD748E2002ED51C /* ScanImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33B40B1FD748E2002ED51C /* ScanImageViewController.swift */; };
+		2F33B40E1FD84A72002ED51C /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33B40D1FD84A72002ED51C /* DevicesViewController.swift */; };
+		2F33B4101FD856FE002ED51C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33B40F1FD856FE002ED51C /* Device.swift */; };
+		2F33B4141FD9C6AD002ED51C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33B4131FD9C6AD002ED51C /* NavigationController.swift */; };
+		2F6790931FDEF886002C75DA /* OtherGuyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6790921FDEF886002C75DA /* OtherGuyMessageCell.swift */; };
+		2F6790951FDF0480002C75DA /* DevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6790941FDF0480002C75DA /* DevicesTableViewController.swift */; };
+		2F6790971FDF1F24002C75DA /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6790961FDF1F24002C75DA /* Chat.swift */; };
+		2FBB900F1FCC7869003EF2E4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB900E1FCC7869003EF2E4 /* Message.swift */; };
+		2FBB90121FCC8765003EF2E4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB90111FCC8765003EF2E4 /* ChatViewController.swift */; };
+		2FBB90161FCC917D003EF2E4 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB90151FCC917D003EF2E4 /* MessageCell.swift */; };
+		2FBB90181FCCDF23003EF2E4 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB90171FCCDF23003EF2E4 /* MessageTableViewCell.swift */; };
+		2FBB901A1FCCE8C9003EF2E4 /* YTButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBB90191FCCE8C9003EF2E4 /* YTButtons.swift */; };
+		2FEA52821FC4D51E002553CD /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA52811FC4D51E002553CD /* constants.swift */; };
+		2FEA52841FC4F5F2002553CD /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA52831FC4F5F2002553CD /* helpers.swift */; };
+		2FEA52861FC4FA61002553CD /* PeripheralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA52851FC4FA61002553CD /* PeripheralExtension.swift */; };
+		2FEA52A71FC614AB002553CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA52A51FC614AB002553CD /* Main.storyboard */; };
+		2FEA52AB1FC63A63002553CD /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA52AA1FC63A63002553CD /* Theme.xcassets */; };
 		2FF992F11FBE348200E4FAA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF992F01FBE348200E4FAA4 /* AppDelegate.swift */; };
-		2FF992F31FBE348200E4FAA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF992F21FBE348200E4FAA4 /* ViewController.swift */; };
-		2FF992F61FBE348200E4FAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF992F41FBE348200E4FAA4 /* Main.storyboard */; };
 		2FF992F81FBE348200E4FAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF992F71FBE348200E4FAA4 /* Assets.xcassets */; };
 		2FF992FB1FBE348200E4FAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF992F91FBE348200E4FAA4 /* LaunchScreen.storyboard */; };
+		2FF993081FBE3C0000E4FAA4 /* BluetoothController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF993071FBE3C0000E4FAA4 /* BluetoothController.swift */; };
+		2FF9930A1FBF4ADA00E4FAA4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF993091FBF4ADA00E4FAA4 /* Util.swift */; };
+		2FF9930C1FBF4E3900E4FAA4 /* Crc16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9930B1FBF4E3900E4FAA4 /* Crc16.swift */; };
+		2FFA39F51FC4AB090011028F /* BridgeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA39F41FC4AB090011028F /* BridgeInfoViewController.swift */; };
+		7748A5DF9C1C01BD008E540A /* Pods_Sure_Fi_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2EB3C90C49E5FD4F880AE2 /* Pods_Sure_Fi_Chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		137D4834A1A60A8CF99F6510 /* Pods-Sure-Fi-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sure-Fi-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sure-Fi-Chat/Pods-Sure-Fi-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		2F07C9CD1FC37DE400E3941F /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		2F07C9DB1FC398F700E3941F /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
+		2F33B4071FD74377002ED51C /* ScanQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrViewController.swift; sourceTree = "<group>"; };
+		2F33B40B1FD748E2002ED51C /* ScanImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageViewController.swift; sourceTree = "<group>"; };
+		2F33B40D1FD84A72002ED51C /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		2F33B40F1FD856FE002ED51C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		2F33B4131FD9C6AD002ED51C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		2F6790921FDEF886002C75DA /* OtherGuyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherGuyMessageCell.swift; sourceTree = "<group>"; };
+		2F6790941FDF0480002C75DA /* DevicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesTableViewController.swift; sourceTree = "<group>"; };
+		2F6790961FDF1F24002C75DA /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		2FBB900E1FCC7869003EF2E4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2FBB90111FCC8765003EF2E4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2FBB90151FCC917D003EF2E4 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2FBB90171FCCDF23003EF2E4 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		2FBB90191FCCE8C9003EF2E4 /* YTButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTButtons.swift; sourceTree = "<group>"; };
+		2FEA52811FC4D51E002553CD /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		2FEA52831FC4F5F2002553CD /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		2FEA52851FC4FA61002553CD /* PeripheralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralExtension.swift; sourceTree = "<group>"; };
+		2FEA52A61FC614AB002553CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEA52AA1FC63A63002553CD /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		2FF992ED1FBE348200E4FAA4 /* Sure-Fi-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sure-Fi-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF992F01FBE348200E4FAA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FF992F21FBE348200E4FAA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FF992F51FBE348200E4FAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FF992F71FBE348200E4FAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF992FA1FBE348200E4FAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF992FC1FBE348200E4FAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF993031FBE389000E4FAA4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2FF993041FBE38A200E4FAA4 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		2FF993051FBE38A200E4FAA4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2FF993071FBE3C0000E4FAA4 /* BluetoothController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+		2FF993091FBF4ADA00E4FAA4 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		2FF9930B1FBF4E3900E4FAA4 /* Crc16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crc16.swift; sourceTree = "<group>"; };
+		2FFA39F41FC4AB090011028F /* BridgeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeInfoViewController.swift; sourceTree = "<group>"; };
+		2FFA39F61FC4CAEB0011028F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		68B088CD4C995F2E3AFD3DE4 /* Pods-Sure-Fi-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sure-Fi-Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sure-Fi-Chat/Pods-Sure-Fi-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		AE2EB3C90C49E5FD4F880AE2 /* Pods_Sure_Fi_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sure_Fi_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7748A5DF9C1C01BD008E540A /* Pods_Sure_Fi_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FBB90101FCC789F003EF2E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB900E1FCC7869003EF2E4 /* Message.swift */,
+				2F33B40F1FD856FE002ED51C /* Device.swift */,
+				2F6790961FDF1F24002C75DA /* Chat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2FF992E41FBE348200E4FAA4 = {
 			isa = PBXGroup;
 			children = (
+				2F07C9CD1FC37DE400E3941F /* UIButton.swift */,
 				2FF992EF1FBE348200E4FAA4 /* Sure-Fi-Chat */,
 				2FF992EE1FBE348200E4FAA4 /* Products */,
+				2FF993021FBE389000E4FAA4 /* Frameworks */,
+				7AE5EC57B055F03995DEA128 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,62 @@
 		2FF992EF1FBE348200E4FAA4 /* Sure-Fi-Chat */ = {
 			isa = PBXGroup;
 			children = (
+				2FBB90101FCC789F003EF2E4 /* Models */,
+				2FF993061FBE3B8200E4FAA4 /* Controllers */,
 				2FF992F01FBE348200E4FAA4 /* AppDelegate.swift */,
-				2FF992F21FBE348200E4FAA4 /* ViewController.swift */,
-				2FF992F41FBE348200E4FAA4 /* Main.storyboard */,
+				2FEA52A51FC614AB002553CD /* Main.storyboard */,
+				2FBB90171FCCDF23003EF2E4 /* MessageTableViewCell.swift */,
+				2F6790921FDEF886002C75DA /* OtherGuyMessageCell.swift */,
+				2FEA52811FC4D51E002553CD /* constants.swift */,
 				2FF992F71FBE348200E4FAA4 /* Assets.xcassets */,
 				2FF992F91FBE348200E4FAA4 /* LaunchScreen.storyboard */,
 				2FF992FC1FBE348200E4FAA4 /* Info.plist */,
+				2FF993091FBF4ADA00E4FAA4 /* Util.swift */,
+				2FBB90191FCCE8C9003EF2E4 /* YTButtons.swift */,
+				2FFA39F41FC4AB090011028F /* BridgeInfoViewController.swift */,
+				2FF9930B1FBF4E3900E4FAA4 /* Crc16.swift */,
+				2FBB90111FCC8765003EF2E4 /* ChatViewController.swift */,
+				2FBB90151FCC917D003EF2E4 /* MessageCell.swift */,
+				2F07C9DB1FC398F700E3941F /* NewTableViewController.swift */,
+				2FEA52851FC4FA61002553CD /* PeripheralExtension.swift */,
+				2FEA52831FC4F5F2002553CD /* helpers.swift */,
+				2FFA39F61FC4CAEB0011028F /* Header.h */,
+				2FEA52AA1FC63A63002553CD /* Theme.xcassets */,
+				2F33B4071FD74377002ED51C /* ScanQrViewController.swift */,
+				2F33B40B1FD748E2002ED51C /* ScanImageViewController.swift */,
+				2F33B40D1FD84A72002ED51C /* DevicesViewController.swift */,
+				2F33B4131FD9C6AD002ED51C /* NavigationController.swift */,
+				2F6790941FDF0480002C75DA /* DevicesTableViewController.swift */,
 			);
 			path = "Sure-Fi-Chat";
+			sourceTree = "<group>";
+		};
+		2FF993021FBE389000E4FAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF993041FBE38A200E4FAA4 /* Messages.framework */,
+				2FF993051FBE38A200E4FAA4 /* MessageUI.framework */,
+				2FF993031FBE389000E4FAA4 /* CoreBluetooth.framework */,
+				AE2EB3C90C49E5FD4F880AE2 /* Pods_Sure_Fi_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FF993061FBE3B8200E4FAA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FF993071FBE3C0000E4FAA4 /* BluetoothController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7AE5EC57B055F03995DEA128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				137D4834A1A60A8CF99F6510 /* Pods-Sure-Fi-Chat.debug.xcconfig */,
+				68B088CD4C995F2E3AFD3DE4 /* Pods-Sure-Fi-Chat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FF992FF1FBE348200E4FAA4 /* Build configuration list for PBXNativeTarget "Sure-Fi-Chat" */;
 			buildPhases = (
+				0AF2EBFA94F8F527333DC730 /* [CP] Check Pods Manifest.lock */,
 				2FF992E91FBE348200E4FAA4 /* Sources */,
 				2FF992EA1FBE348200E4FAA4 /* Frameworks */,
 				2FF992EB1FBE348200E4FAA4 /* Resources */,
+				677E8AB6C7908D2831F388B6 /* [CP] Embed Pods Frameworks */,
+				FECD8AABB1B2585506689B65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,31 +240,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEA52A71FC614AB002553CD /* Main.storyboard in Resources */,
+				2FEA52AB1FC63A63002553CD /* Theme.xcassets in Resources */,
 				2FF992FB1FBE348200E4FAA4 /* LaunchScreen.storyboard in Resources */,
 				2FF992F81FBE348200E4FAA4 /* Assets.xcassets in Resources */,
-				2FF992F61FBE348200E4FAA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF2EBFA94F8F527333DC730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sure-Fi-Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677E8AB6C7908D2831F388B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sure-Fi-Chat/Pods-Sure-Fi-Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sure-Fi-Chat/Pods-Sure-Fi-Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECD8AABB1B2585506689B65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sure-Fi-Chat/Pods-Sure-Fi-Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FF992E91FBE348200E4FAA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FF992F31FBE348200E4FAA4 /* ViewController.swift in Sources */,
+				2FEA52861FC4FA61002553CD /* PeripheralExtension.swift in Sources */,
+				2F33B40E1FD84A72002ED51C /* DevicesViewController.swift in Sources */,
+				2FEA52841FC4F5F2002553CD /* helpers.swift in Sources */,
+				2F07C9DC1FC398F700E3941F /* NewTableViewController.swift in Sources */,
+				2F33B4081FD74377002ED51C /* ScanQrViewController.swift in Sources */,
+				2FEA52821FC4D51E002553CD /* constants.swift in Sources */,
+				2FF993081FBE3C0000E4FAA4 /* BluetoothController.swift in Sources */,
+				2FBB901A1FCCE8C9003EF2E4 /* YTButtons.swift in Sources */,
+				2F33B4101FD856FE002ED51C /* Device.swift in Sources */,
+				2F33B4141FD9C6AD002ED51C /* NavigationController.swift in Sources */,
+				2FFA39F51FC4AB090011028F /* BridgeInfoViewController.swift in Sources */,
 				2FF992F11FBE348200E4FAA4 /* AppDelegate.swift in Sources */,
+				2FBB90181FCCDF23003EF2E4 /* MessageTableViewCell.swift in Sources */,
+				2F6790971FDF1F24002C75DA /* Chat.swift in Sources */,
+				2FF9930C1FBF4E3900E4FAA4 /* Crc16.swift in Sources */,
+				2FBB900F1FCC7869003EF2E4 /* Message.swift in Sources */,
+				2FBB90121FCC8765003EF2E4 /* ChatViewController.swift in Sources */,
+				2FBB90161FCC917D003EF2E4 /* MessageCell.swift in Sources */,
+				2FF9930A1FBF4ADA00E4FAA4 /* Util.swift in Sources */,
+				2F07C9CE1FC37DE400E3941F /* UIButton.swift in Sources */,
+				2F6790931FDEF886002C75DA /* OtherGuyMessageCell.swift in Sources */,
+				2F6790951FDF0480002C75DA /* DevicesTableViewController.swift in Sources */,
+				2F33B40C1FD748E2002ED51C /* ScanImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2FF992F41FBE348200E4FAA4 /* Main.storyboard */ = {
+		2FEA52A51FC614AB002553CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2FF992F51FBE348200E4FAA4 /* Base */,
+				2FEA52A61FC614AB002553CD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -272,6 +465,7 @@
 		};
 		2FF993001FBE348200E4FAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137D4834A1A60A8CF99F6510 /* Pods-Sure-Fi-Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Sure-Fi-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Sure-Fi-Chat/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +482,7 @@
 		};
 		2FF993011FBE348200E4FAA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B088CD4C995F2E3AFD3DE4 /* Pods-Sure-Fi-Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Sure-Fi-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Sure-Fi-Chat/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
